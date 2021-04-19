@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.myadapterswithmenus.MainActivity">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SimplestActivity"
+        android:title="@string/simplest_activity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/HandmadeActivity"
+        android:title="@string/handmade_activity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/SimpleAdapterActivity"
+        android:title="@string/simple_adapter_activity"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/MenjarsAdapterActivity"
+        android:title="@string/menjars_adapter_activity"
+        app:showAsAction="never" />
+</menu>
